@@ -1,11 +1,15 @@
 import type { GlobalThemeOverrides } from 'naive-ui';
 
 export const lightThemeOverrides: GlobalThemeOverrides = {
+  common: {
+    primaryColor: '#216254', primaryColorHover: '#317662', primaryColorPressed: '#184d40',
+    fontFamily: "'IBM Plex Sans', system-ui, sans-serif",
+  },
   Menu: {
     itemHeight: '32px',
   },
 
-  Layout: { color: '#f1f5f9' },
+  Layout: { color: '#f1f6f3' },
 
   AutoComplete: {
     peers: {
@@ -16,7 +20,8 @@ export const lightThemeOverrides: GlobalThemeOverrides = {
 
 export const darkThemeOverrides: GlobalThemeOverrides = {
   common: {
-    primaryColor: '#1ea54cFF',
+    fontFamily: "'IBM Plex Sans', system-ui, sans-serif",
+    primaryColor: '#70ba9e',
     primaryColorHover: '#36AD6AFF',
     primaryColorPressed: '#0C7A43FF',
     primaryColorSuppl: '#36AD6AFF',

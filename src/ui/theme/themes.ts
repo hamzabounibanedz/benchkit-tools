@@ -2,7 +2,7 @@ import { defineThemes } from './theme.models';
 
 export const { themes: appThemes, useTheme: useAppTheme } = defineThemes({
   light: {
-    background: '#ffffff',
+    background: '#f1f6f3',
     text: {
       baseColor: '#333639',
       mutedColor: '#767c82',
@@ -14,9 +14,9 @@ export const { themes: appThemes, useTheme: useAppTheme } = defineThemes({
     },
     primary: {
       color: '#18a058',
-      colorHover: '#1ea54c',
+      colorHover: '#216254',
       colorPressed: '#0C7A43',
-      colorFaded: '#18a0582f',
+      colorFaded: '#2162542f',
     },
     warning: {
       color: '#f59e0b',
@@ -28,7 +28,7 @@ export const { themes: appThemes, useTheme: useAppTheme } = defineThemes({
       color: '#18a058',
       colorHover: '#36ad6a',
       colorPressed: '#0c7a43',
-      colorFaded: '#18a0582f',
+      colorFaded: '#2162542f',
     },
     error: {
       color: '#d03050',
@@ -49,10 +49,10 @@ export const { themes: appThemes, useTheme: useAppTheme } = defineThemes({
       colorPressed: 'rgba(255, 255, 255, 0.24)',
     },
     primary: {
-      color: '#1ea54c',
+      color: '#216254',
       colorHover: '#36AD6A',
       colorPressed: '#0C7A43',
-      colorFaded: '#18a0582f',
+      colorFaded: '#2162542f',
     },
     warning: {
       color: '#f59e0b',
@@ -64,7 +64,7 @@ export const { themes: appThemes, useTheme: useAppTheme } = defineThemes({
       color: '#18a058',
       colorHover: '#36ad6a',
       colorPressed: '#0c7a43',
-      colorFaded: '#18a0582f',
+      colorFaded: '#2162542f',
     },
     error: {
       color: '#e88080',
